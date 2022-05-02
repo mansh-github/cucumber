@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-01T14:53:49.110Z",
+        "line": 15,
+        "name": "Verification of Login Function",
+        "description": "",
+        "id": "login-into-application;verification-of-login-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": []
+      }
+    ],
+    "name": "Login into Application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-01T14:53:49.269Z",
+        "line": 2,
+        "name": "Could not execute Cucumber",
+        "description": "",
+        "id": "failure;could-not-execute-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 0,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Cucumber could not execute",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_could_not_execute()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 0,
+              "error_message": "java.lang.IllegalAccessError: failed to access class com.aventstack.extentreports.model.Attribute from class com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter (com.aventstack.extentreports.model.Attribute and com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter are in unnamed module of loader \u0027app\u0027)",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Cucumber will report this error:",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_reports_this_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test run failed",
+    "description": "There were errors during the execution",
+    "id": "failure",
+    "keyword": "Feature",
+    "uri": "classpath:io/cucumber/core/failure.feature",
+    "tags": []
+  }
+]
